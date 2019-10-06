@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +10,7 @@ public class MapGenerator : MonoBehaviour {
 
     [SerializeField] LocationController _locationController;
 
-    private enum CategoryType {
+    public enum CategoryType {
         ArtsAndEntertainment,
         Education,
         Food,
@@ -60,15 +61,105 @@ public class MapGenerator : MonoBehaviour {
         } },
     };
 
+    public static readonly List<CategoryType> DEFAULT_CATEGORY_TYPES = new List<CategoryType>() {
+        CategoryType.Food,
+        CategoryType.ShopsAndService,
+        CategoryType.ArtsAndEntertainment,
+        CategoryType.Education,
+        CategoryType.LandFeatures,
+        CategoryType.ParksAndOutdoors,
+        CategoryType.ProfessionalAndOtherPlaces,
+        CategoryType.Nightlife,
+    };
+
+    private const string CATEGORY_TYPES_KEY = "ctk";
+
     public static Transform player;
+    private static MapGenerator _instance;
 
     private List<CandidateController> _activeCandidates;
+    private bool _isDirty;
+
+    public static HashSet<CategoryType> getAllSavedCategoryTypes() {
+        HashSet<CategoryType> categoryTypes = new HashSet<CategoryType>();
+        List<CategoryType> types = _instance.getSavedCategoryTypes();
+        for (int i = 0; i < types.Count; i++) {
+            categoryTypes.Add(types[i]);
+        }
+        return categoryTypes;
+    }
+
+    private List<CategoryType> getSavedCategoryTypes() {
+        if (PlayerPrefs.HasKey(CATEGORY_TYPES_KEY)) {
+            string serializedCategoryTypes = PlayerPrefs.GetString(CATEGORY_TYPES_KEY, String.Empty);
+            if (!String.IsNullOrEmpty(serializedCategoryTypes)) {
+                try {
+                    return Newtonsoft.Json.JsonConvert.DeserializeObject<List<CategoryType>>(serializedCategoryTypes);
+                } catch (Exception e) {
+                    Debug.LogErrorFormat("Failed to deserialize {0} into a list of category types.", serializedCategoryTypes);
+                }
+            }
+        }
+
+        return DEFAULT_CATEGORY_TYPES;
+    }
+
+    private void saveCategoryTypes(List<CategoryType> categoryTypes) {
+        if (categoryTypes == null) {
+            categoryTypes = new List<CategoryType>();
+        }
+        PlayerPrefs.SetString(CATEGORY_TYPES_KEY, Newtonsoft.Json.JsonConvert.SerializeObject(categoryTypes));
+    }
 
     private void Awake() {
+        _instance = this;
+
         player = GameObject.Instantiate(_playerPrefab).transform;
         _activeCandidates = new List<CandidateController>();
+        _isDirty = false;
 
         Screen.sleepTimeout = -1;
+    }
+
+    public static void ModifyFlag(CategoryType categoryType, bool isSet) {
+        _instance._isDirty = true;
+
+        List<CategoryType> categoryTypes = _instance.getSavedCategoryTypes();
+        HashSet<CategoryType> categorySet = new HashSet<CategoryType>();
+        for (int i = 0; i < categoryTypes.Count; i++) {
+            categorySet.Add(categoryTypes[i]);
+        }
+
+        if (isSet) {
+            categorySet.Add(categoryType);
+        } else {
+            categorySet.Remove(categoryType);
+        }
+
+        categoryTypes.Clear();
+        foreach (CategoryType catType in categorySet) {
+            categoryTypes.Add(catType);
+        }
+
+        _instance.saveCategoryTypes(categoryTypes);
+    }
+
+    public static void TryReload() {
+        if (!_instance._isDirty) {
+            return;
+        }
+
+        _instance._isDirty = false;
+
+        _instance.StartCoroutine(_instance.CleanUpAndRestart());
+    }
+
+    private IEnumerator CleanUpAndRestart() {
+        for (int i = 0; i < _instance._activeCandidates.Count; i++) {
+            GameObject.Destroy(_instance._activeCandidates[i].gameObject);
+        }
+        _activeCandidates = new List<CandidateController>();
+        yield return Start();
     }
 
     private IEnumerator Start() {
@@ -76,16 +167,8 @@ public class MapGenerator : MonoBehaviour {
             yield return null;
         }
 
-        CategoryType[] categoryTypes = {
-            CategoryType.Food,
-            CategoryType.ShopsAndService,
-            CategoryType.ArtsAndEntertainment,
-            CategoryType.Education,
-            CategoryType.LandFeatures,
-            CategoryType.ParksAndOutdoors,
-            CategoryType.ProfessionalAndOtherPlaces,
-            CategoryType.Nightlife,
-        };
+        CategoryType[] categoryTypes = getSavedCategoryTypes().ToArray();
+        Debug.Log(categoryTypes.Length);
         for (int i = 0; i < categoryTypes.Length; i++) {
             List<string> categories = new List<string>();
             CategoryData categoryData = CATEGORY_TYPES_TO_SEARCH_CATEGORIES[categoryTypes[i]];
@@ -93,9 +176,6 @@ public class MapGenerator : MonoBehaviour {
                 categories.Add(categoryData.Filters[j]);
             }
 
-            //string[] categories = {
-            //    "Gas%20Station",
-            //};
             string[] outFields = {
                 "PlaceName",
                 "Place_Addr",
@@ -116,7 +196,6 @@ public class MapGenerator : MonoBehaviour {
                 if (candidateData[j].placeName.Equals("Earth")) {
                     continue;
                 }
-                //Debug.Log(j + ": " + candidateData[j].placeName + " " + candidateData[j].placeAddress + " " + candidateData[j].rect);
 
                 CandidateController candidateInstance = GameObject.Instantiate(_candidatePrefab);
                 candidateInstance.Initialize(candidateData[j]);
