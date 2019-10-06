@@ -31,7 +31,7 @@ public class PopupController : MonoBehaviour {
 
         _instance._nameLabel.text = candidateData.placeName;
         _instance._addressLabel.text = candidateData.placeAddress;
-        _instance._mapsButton.onClick.RemoveAllListeners();//https://www.google.com/maps/dir//'40.6945253,-111.8449462'/
+        _instance._mapsButton.onClick.RemoveAllListeners();
         _instance._mapsButton.onClick.AddListener(() => { Application.OpenURL(String.Format("https://www.google.com/maps/dir/'{0},{1}'/'{2},{3}'", playerLongLat.z, playerLongLat.x, candidateData.z, candidateData.x)); });
         _instance._exitButton.onClick.RemoveAllListeners();
         _instance._exitButton.onClick.AddListener(() => { _instance.hidePopup(); });

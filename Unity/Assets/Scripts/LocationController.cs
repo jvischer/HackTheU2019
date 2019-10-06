@@ -29,7 +29,7 @@ public class LocationController : MonoBehaviour {
             yield return new WaitForSeconds(LOCATION_ENABLE_CHECK_REFRESH_COOLDOWN);
         }
 
-        Input.location.Start();
+        Input.location.Start(1, 1);
 
         while (Input.location.status != LocationServiceStatus.Running) {
             yield return null;
@@ -42,21 +42,14 @@ public class LocationController : MonoBehaviour {
         yield return null;
 #endif
         isInitialized = true;
-
-        Debug.Log("Initialized w/ " + " " + initialLocationInfo.longitude + ", " + initialLocationInfo.latitude + " " + _longitudeOffset + " " + _latitudeOffset);
-
-        //while (true) {
-        //    LocationInfo locationInfo = Input.location.lastData;
-
-        //    Debug.Log(locationInfo.longitude + " " + locationInfo.latitude + " " + locationInfo.altitude + " " + locationInfo.horizontalAccuracy + " " + locationInfo.verticalAccuracy);
-
-        //    yield return new WaitForSeconds(LOCATION_REFRESH_COOLDOWN);
-        //}
     }
 
     private const float OFFSET_PER_DEV_HOTKEY_SECOND = 1F;
 
     private void Update() {
+        // Force it to update every frame?
+        LocationInfo locationInfo = Input.location.lastData;
+
         Vector3 devHotkeyMovementDir = Vector3.zero;
         if (Input.GetKey(KeyCode.W)) {
             devHotkeyMovementDir += Vector3.forward;

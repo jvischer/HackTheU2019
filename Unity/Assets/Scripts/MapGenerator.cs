@@ -168,7 +168,6 @@ public class MapGenerator : MonoBehaviour {
         }
 
         CategoryType[] categoryTypes = getSavedCategoryTypes().ToArray();
-        Debug.Log(categoryTypes.Length);
         for (int i = 0; i < categoryTypes.Length; i++) {
             List<string> categories = new List<string>();
             CategoryData categoryData = CATEGORY_TYPES_TO_SEARCH_CATEGORIES[categoryTypes[i]];
