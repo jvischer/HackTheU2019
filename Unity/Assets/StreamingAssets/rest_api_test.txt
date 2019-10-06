@@ -1,0 +1,1008 @@
+{
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "candidates": [
+  {
+   "address": "Sinclair",
+   "location": {
+    "x": -111.82690999884613,
+    "y": 40.741270003895217
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Sinclair",
+    "Place_Addr": "1309 S Foothill Dr, Salt Lake City, Utah, 84108",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.83144999999996,
+    "ymin": 40.736370000000072,
+    "xmax": -111.82144999999997,
+    "ymax": 40.746370000000077
+   }
+  },
+  {
+   "address": "TEXACO",
+   "location": {
+    "x": -111.83080999999999,
+    "y": 40.740280000000041
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "TEXACO",
+    "Place_Addr": "1360 S 2100 E, Salt Lake City, Utah, 84108",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.83580999999998,
+    "ymin": 40.735280000000039,
+    "xmax": -111.82580999999999,
+    "ymax": 40.745280000000044
+   }
+  },
+  {
+   "address": "Shell",
+   "location": {
+    "x": -111.85390001889874,
+    "y": 40.76529000000005
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Shell",
+    "Place_Addr": "176 S 1300 E, Salt Lake City, Utah, 84102",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.85916999999995,
+    "ymin": 40.760290000000047,
+    "xmax": -111.84916999999996,
+    "ymax": 40.770290000000053
+   }
+  },
+  {
+   "address": "Craig's Service Center",
+   "location": {
+    "x": -111.85393006607406,
+    "y": 40.749450000000024
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Craig's Service Center",
+    "Place_Addr": "904 S 1300 E, Salt Lake City, Utah, 84105",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.85911999999996,
+    "ymin": 40.744450000000022,
+    "xmax": -111.84911999999997,
+    "ymax": 40.754450000000027
+   }
+  },
+  {
+   "address": "Phillips 66",
+   "location": {
+    "x": -111.82106991892223,
+    "y": 40.734480066074141
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Phillips 66",
+    "Place_Addr": "1605 S Foothill Dr, Salt Lake City, Utah, 84108",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.82570999999996,
+    "ymin": 40.729670000000048,
+    "xmax": -111.81570999999997,
+    "ymax": 40.739670000000054
+   }
+  },
+  {
+   "address": "Maverik",
+   "location": {
+    "x": -111.86537006665095,
+    "y": 40.762250000000051
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Maverik",
+    "Place_Addr": "310 S 900 E, Salt Lake City, Utah, 84102",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.87078999999994,
+    "ymin": 40.757250000000049,
+    "xmax": -111.86078999999995,
+    "ymax": 40.767250000000054
+   }
+  },
+  {
+   "address": "Sinclair",
+   "location": {
+    "x": -111.84195999999997,
+    "y": 40.733609959461191
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Sinclair",
+    "Place_Addr": "1702 E 1700 S, Salt Lake City, Utah, 84108",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.84695999999997,
+    "ymin": 40.728430000000053,
+    "xmax": -111.83695999999998,
+    "ymax": 40.738430000000058
+   }
+  },
+  {
+   "address": "Tesoro",
+   "location": {
+    "x": -111.86509999999998,
+    "y": 40.767150000000072
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Tesoro",
+    "Place_Addr": "900 E 100 S, Salt Lake City, Utah, 84102",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.87009999999998,
+    "ymin": 40.762150000000069,
+    "xmax": -111.86009999999999,
+    "ymax": 40.772150000000074
+   }
+  },
+  {
+   "address": "Chevron",
+   "location": {
+    "x": -111.84269998167811,
+    "y": 40.733499977783062
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Chevron",
+    "Place_Addr": "1688 E 1700 S, Salt Lake City, Utah, 84105",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.84765999999996,
+    "ymin": 40.728360000000059,
+    "xmax": -111.83765999999997,
+    "ymax": 40.738360000000064
+   }
+  },
+  {
+   "address": "Tesoro",
+   "location": {
+    "x": -111.86528998110117,
+    "y": 40.767480025535292
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Tesoro",
+    "Place_Addr": "75 S 900 E, Salt Lake City, Utah, 84102",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.87001999999995,
+    "ymin": 40.762490000000064,
+    "xmax": -111.86001999999996,
+    "ymax": 40.772490000000069
+   }
+  },
+  {
+   "address": "Phillips 66",
+   "location": {
+    "x": -111.86363999999998,
+    "y": 40.772789941139301
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Phillips 66",
+    "Place_Addr": "860 E 3rd Ave, Salt Lake City, Utah, 84103",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.86863999999997,
+    "ymin": 40.767570000000028,
+    "xmax": -111.85863999999998,
+    "ymax": 40.777570000000033
+   }
+  },
+  {
+   "address": "Smith's Fuel Center",
+   "location": {
+    "x": -111.86604999999997,
+    "y": 40.769640000000038
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Smith's Fuel Center",
+    "Place_Addr": "873 E South Temple, Salt Lake City, Utah, 84102",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.87104999999997,
+    "ymin": 40.764640000000036,
+    "xmax": -111.86104999999998,
+    "ymax": 40.774640000000041
+   }
+  },
+  {
+   "address": "Sinclair",
+   "location": {
+    "x": -111.85380999552793,
+    "y": 40.733890025535288
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Sinclair",
+    "Place_Addr": "1689 S 1300 E, Salt Lake City, Utah, 84105",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.85847999999999,
+    "ymin": 40.72890000000006,
+    "xmax": -111.84848,
+    "ymax": 40.738900000000065
+   }
+  },
+  {
+   "address": "Shell",
+   "location": {
+    "x": -111.87146999999999,
+    "y": 40.760539970569681
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Shell",
+    "Place_Addr": "680 E 400 S, Salt Lake City, Utah, 84102",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.87646999999998,
+    "ymin": 40.75543000000004,
+    "xmax": -111.86646999999999,
+    "ymax": 40.765430000000045
+   }
+  },
+  {
+   "address": "Sinclair",
+   "location": {
+    "x": -111.87145999999996,
+    "y": 40.764710000000036
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Sinclair",
+    "Place_Addr": "210 S 700 E, Salt Lake City, Utah, 84102",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.87645999999995,
+    "ymin": 40.759710000000034,
+    "xmax": -111.86645999999996,
+    "ymax": 40.769710000000039
+   }
+  },
+  {
+   "address": "Shell",
+   "location": {
+    "x": -111.86586996667448,
+    "y": 40.741609992209753
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Shell",
+    "Place_Addr": "874 E 1300 S, Salt Lake City, Utah, 84105",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.87065999999999,
+    "ymin": 40.736410000000028,
+    "xmax": -111.86066,
+    "ymax": 40.746410000000033
+   }
+  },
+  {
+   "address": "Shell",
+   "location": {
+    "x": -111.83038999999997,
+    "y": 40.725459996104938
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Shell",
+    "Place_Addr": "2112 E 2100 S, Salt Lake City, Utah, 84109",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.83538999999996,
+    "ymin": 40.720360000000078,
+    "xmax": -111.82538999999997,
+    "ymax": 40.730360000000083
+   }
+  },
+  {
+   "address": "TEXACO",
+   "location": {
+    "x": -111.85965008050076,
+    "y": 40.733700000000056
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "TEXACO",
+    "Place_Addr": "1646 S 1100 E, Salt Lake City, Utah, 84105",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.86477999999994,
+    "ymin": 40.728700000000053,
+    "xmax": -111.85477999999995,
+    "ymax": 40.738700000000058
+   }
+  },
+  {
+   "address": "Phillips 66",
+   "location": {
+    "x": -111.82526003664371,
+    "y": 40.725329977783055
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Phillips 66",
+    "Place_Addr": "2276 E 2100 S, Salt Lake City, Utah, 84109",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.83033999999998,
+    "ymin": 40.720190000000052,
+    "xmax": -111.82033999999999,
+    "ymax": 40.730190000000057
+   }
+  },
+  {
+   "address": "Smith's Fuel Center",
+   "location": {
+    "x": -111.87676992945383,
+    "y": 40.759850000000029
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Smith's Fuel Center",
+    "Place_Addr": "455 S 500 E, Salt Lake City, Utah, 84102",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.88124999999997,
+    "ymin": 40.754850000000026,
+    "xmax": -111.87124999999997,
+    "ymax": 40.764850000000031
+   }
+  },
+  {
+   "address": "Maverik",
+   "location": {
+    "x": -111.87632999999994,
+    "y": 40.762809992209775
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Maverik",
+    "Place_Addr": "508 E 300 S, Salt Lake City, Utah, 84102",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.88132999999993,
+    "ymin": 40.757610000000049,
+    "xmax": -111.87132999999994,
+    "ymax": 40.767610000000055
+   }
+  },
+  {
+   "address": "Chevron",
+   "location": {
+    "x": -111.85385001615745,
+    "y": 40.725039948929584
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Chevron",
+    "Place_Addr": "2110 S 1300 E, Salt Lake City, Utah, 84106",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.85947999999996,
+    "ymin": 40.720020000000027,
+    "xmax": -111.84947999999997,
+    "ymax": 40.730020000000032
+   }
+  },
+  {
+   "address": "7-Eleven",
+   "location": {
+    "x": -111.88180999999997,
+    "y": 40.760760011685463
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "7-Eleven",
+    "Place_Addr": "309 E 400 S, Salt Lake City, Utah, 84111",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.88680999999997,
+    "ymin": 40.756060000000041,
+    "xmax": -111.87680999999998,
+    "ymax": 40.766060000000046
+   }
+  },
+  {
+   "address": "Smith's",
+   "location": {
+    "x": -111.85986999999994,
+    "y": 40.727240000000052
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Smith's",
+    "Place_Addr": "1974 S 1100 E, Salt Lake City, Utah, 84106",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.86486999999994,
+    "ymin": 40.722240000000049,
+    "xmax": -111.85486999999995,
+    "ymax": 40.732240000000054
+   }
+  },
+  {
+   "address": "7-Eleven",
+   "location": {
+    "x": -111.87642999999997,
+    "y": 40.741629977783056
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "7-Eleven",
+    "Place_Addr": "510 E 1300 S, Salt Lake City, Utah, 84105",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.88142999999997,
+    "ymin": 40.736490000000053,
+    "xmax": -111.87142999999998,
+    "ymax": 40.746490000000058
+   }
+  },
+  {
+   "address": "Sinclair",
+   "location": {
+    "x": -111.88240991949917,
+    "y": 40.766880000000072
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Sinclair",
+    "Place_Addr": "109 S 300 E, Salt Lake City, Utah, 84111",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.88727999999998,
+    "ymin": 40.761880000000069,
+    "xmax": -111.87727999999998,
+    "ymax": 40.771880000000074
+   }
+  },
+  {
+   "address": "Chevron",
+   "location": {
+    "x": -111.8111399594611,
+    "y": 40.720009923394407
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Chevron",
+    "Place_Addr": "2362 S Foothill Dr, Salt Lake City, Utah, 84109",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.81595999999996,
+    "ymin": 40.714980000000075,
+    "xmax": -111.80595999999997,
+    "ymax": 40.72498000000008
+   }
+  },
+  {
+   "address": "Shell",
+   "location": {
+    "x": -111.85812001168539,
+    "y": 40.721200007790351
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Shell",
+    "Place_Addr": "2280 Highland Dr, Salt Lake City, Utah, 84106",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.86341999999996,
+    "ymin": 40.716400000000071,
+    "xmax": -111.85341999999997,
+    "ymax": 40.726400000000076
+   }
+  },
+  {
+   "address": "Maverik",
+   "location": {
+    "x": -111.88819997720603,
+    "y": 40.765269963356353
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Maverik",
+    "Place_Addr": "185 S State St, Salt Lake City, Utah, 84111",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89282999999995,
+    "ymin": 40.760190000000073,
+    "xmax": -111.88282999999996,
+    "ymax": 40.770190000000078
+   }
+  },
+  {
+   "address": "Chevron",
+   "location": {
+    "x": -111.88819992945385,
+    "y": 40.750070000000051
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Chevron",
+    "Place_Addr": "875 S State St, Salt Lake City, Utah, 84111",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89267999999998,
+    "ymin": 40.745070000000048,
+    "xmax": -111.88267999999999,
+    "ymax": 40.755070000000053
+   }
+  },
+  {
+   "address": "Maverik",
+   "location": {
+    "x": -111.8341200155805,
+    "y": 40.713239988891544
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Maverik",
+    "Place_Addr": "2680 S 2000 E, Salt Lake City, Utah, 84109",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.83951999999994,
+    "ymin": 40.708170000000045,
+    "xmax": -111.82951999999995,
+    "ymax": 40.71817000000005
+   }
+  },
+  {
+   "address": "Sinclair",
+   "location": {
+    "x": -111.88826001226231,
+    "y": 40.741250000000036
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Sinclair",
+    "Place_Addr": "1302 S State St, Salt Lake City, Utah, 84115",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89378999999997,
+    "ymin": 40.736250000000034,
+    "xmax": -111.88378999999998,
+    "ymax": 40.746250000000039
+   }
+  },
+  {
+   "address": "Chevron",
+   "location": {
+    "x": -111.89397999999994,
+    "y": 40.758220000000051
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Chevron",
+    "Place_Addr": "504 S West Temple, Salt Lake City, Utah, 84101",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89897999999994,
+    "ymin": 40.753220000000049,
+    "xmax": -111.88897999999995,
+    "ymax": 40.763220000000054
+   }
+  },
+  {
+   "address": "Sinclair",
+   "location": {
+    "x": -111.89441999999997,
+    "y": 40.756269992209802
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Sinclair",
+    "Place_Addr": "105 W 600 S, Salt Lake City, Utah, 84101",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89941999999996,
+    "ymin": 40.751070000000077,
+    "xmax": -111.88941999999997,
+    "ymax": 40.761070000000082
+   }
+  },
+  {
+   "address": "Shell",
+   "location": {
+    "x": -111.8764200255352,
+    "y": 40.72542997778303
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Shell",
+    "Place_Addr": "502 E 2100 S, Salt Lake City, Utah, 84106",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.88142999999997,
+    "ymin": 40.720290000000027,
+    "xmax": -111.87142999999998,
+    "ymax": 40.730290000000032
+   }
+  },
+  {
+   "address": "7-Eleven",
+   "location": {
+    "x": -111.89453999999995,
+    "y": 40.751650000000041
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "7-Eleven",
+    "Place_Addr": "111 W 800 S, Salt Lake City, Utah, 84101",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89953999999994,
+    "ymin": 40.746650000000038,
+    "xmax": -111.88953999999995,
+    "ymax": 40.756650000000043
+   }
+  },
+  {
+   "address": "Maverik",
+   "location": {
+    "x": -111.8911100816546,
+    "y": 40.741970000000038
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Maverik",
+    "Place_Addr": "1270 S Main St, Salt Lake City, Utah, 84101",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89669999999995,
+    "ymin": 40.736970000000035,
+    "xmax": -111.88669999999996,
+    "ymax": 40.74697000000004
+   }
+  },
+  {
+   "address": "Maverik",
+   "location": {
+    "x": -111.89677993724412,
+    "y": 40.75580007660573
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Maverik",
+    "Place_Addr": "615 S 200 W, Salt Lake City, Utah, 84101",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.90145999999999,
+    "ymin": 40.750830000000057,
+    "xmax": -111.89146,
+    "ymax": 40.760830000000063
+   }
+  },
+  {
+   "address": "7-Eleven",
+   "location": {
+    "x": -111.89427002553521,
+    "y": 40.741610029430404
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "7-Eleven",
+    "Place_Addr": "114 W 1300 S, Salt Lake City, Utah, 84115",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89927999999998,
+    "ymin": 40.736720000000041,
+    "xmax": -111.88927999999999,
+    "ymax": 40.746720000000046
+   }
+  },
+  {
+   "address": "Maverik",
+   "location": {
+    "x": -111.89725999999996,
+    "y": 40.771610048329222
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Maverik",
+    "Place_Addr": "206 W North Temple, Salt Lake City, Utah, 84103",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.90225999999996,
+    "ymin": 40.766990000000071,
+    "xmax": -111.89225999999996,
+    "ymax": 40.776990000000076
+   }
+  },
+  {
+   "address": "Phillips 66",
+   "location": {
+    "x": -111.89965993003075,
+    "y": 40.760960000000068
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Phillips 66",
+    "Place_Addr": "379 S 300 W, Salt Lake City, Utah, 84101",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.90436999999997,
+    "ymin": 40.755960000000066,
+    "xmax": -111.89436999999998,
+    "ymax": 40.765960000000071
+   }
+  },
+  {
+   "address": "7-Eleven",
+   "location": {
+    "x": -111.89060999999998,
+    "y": 40.733540080500887
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "7-Eleven",
+    "Place_Addr": "11 E 1700 S, Salt Lake City, Utah, 84115",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89560999999998,
+    "ymin": 40.728670000000072,
+    "xmax": -111.88560999999999,
+    "ymax": 40.738670000000077
+   }
+  },
+  {
+   "address": "Maverik",
+   "location": {
+    "x": -111.90306002553518,
+    "y": 40.758520056119472
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Maverik",
+    "Place_Addr": "414 W 500 S, Salt Lake City, Utah, 84101",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.90806999999995,
+    "ymin": 40.754100000000044,
+    "xmax": -111.89806999999996,
+    "ymax": 40.764100000000049
+   }
+  },
+  {
+   "address": "Tesoro",
+   "location": {
+    "x": -111.87128004443399,
+    "y": 40.712930025535286
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Tesoro",
+    "Place_Addr": "2690 S 700 E, Salt Lake City, Utah, 84106",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.87655999999998,
+    "ymin": 40.707940000000058,
+    "xmax": -111.86655999999999,
+    "ymax": 40.717940000000063
+   }
+  },
+  {
+   "address": "Maverik",
+   "location": {
+    "x": -111.8707900255352,
+    "y": 40.712649919499228
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Maverik",
+    "Place_Addr": "710 E 2700 S, Salt Lake City, Utah, 84106",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.87579999999997,
+    "ymin": 40.707520000000038,
+    "xmax": -111.86579999999998,
+    "ymax": 40.717520000000043
+   }
+  },
+  {
+   "address": "7-Eleven",
+   "location": {
+    "x": -111.88827006390964,
+    "y": 40.725169974464848
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "7-Eleven",
+    "Place_Addr": "2102 S State St, Salt Lake City, Utah, 84115",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89404999999994,
+    "ymin": 40.720160000000071,
+    "xmax": -111.88404999999995,
+    "ymax": 40.730160000000076
+   }
+  },
+  {
+   "address": "Supersonic",
+   "location": {
+    "x": -111.89166999999998,
+    "y": 40.725460080500881
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Supersonic",
+    "Place_Addr": "26 W 2100 S, Salt Lake City, Utah, 84115",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89666999999997,
+    "ymin": 40.720590000000065,
+    "xmax": -111.88666999999998,
+    "ymax": 40.73059000000007
+   }
+  },
+  {
+   "address": "Chevron",
+   "location": {
+    "x": -111.89966998831456,
+    "y": 40.782940000000053
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Chevron",
+    "Place_Addr": "610 N 300 W, Salt Lake City, Utah, 84103",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.90436999999997,
+    "ymin": 40.777940000000051,
+    "xmax": -111.89436999999998,
+    "ymax": 40.787940000000056
+   }
+  },
+  {
+   "address": "Maverik",
+   "location": {
+    "x": -111.89968999942306,
+    "y": 40.733230000000049
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Maverik",
+    "Place_Addr": "1707 S 300 W, Salt Lake City, Utah, 84115",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.90445999999997,
+    "ymin": 40.728230000000046,
+    "xmax": -111.89445999999998,
+    "ymax": 40.738230000000051
+   }
+  },
+  {
+   "address": "Shoppers Express",
+   "location": {
+    "x": -111.89439002553519,
+    "y": 40.725470054965655
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Shoppers Express",
+    "Place_Addr": "108 W 2100 S, Salt Lake City, Utah, 84115",
+    "City": "Salt Lake City",
+    "Region": "Utah"
+   },
+   "extent": {
+    "xmin": -111.89939999999996,
+    "ymin": 40.720590000000065,
+    "xmax": -111.88939999999997,
+    "ymax": 40.73059000000007
+   }
+  }
+ ]
+}
