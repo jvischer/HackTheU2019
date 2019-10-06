@@ -10,6 +10,6 @@ public static class AppConsts {
 	public const int MAP_SCALE_FACTOR = 2000;
 	public const int MAX_VISIBLE_NAME_PLATE_DISTANCE = 75;
 
-    public const float SCREEN_HORIZONTAL_SCROLL_SENSITIVITY = 1.1F;
+    public const float SCREEN_HORIZONTAL_SCROLL_SENSITIVITY = 1.3F;
 
 }
