@@ -6,149 +6,145 @@ using System.Net;
 using System.Text;
 using UnityEngine;
 
-public class ArcGSIRequestHelper : MonoBehaviour {
+public class CandidateData {
 
-    public class CandidateData {
+    private const string NAME_KEY = "PlaceName";
+    private const string ADDR_KEY = "Place_Addr";
 
-        private const string NAME_KEY = "PlaceName";
-        private const string ADDR_KEY = "Place_Addr";
+    private const string X_KEY = "x";
+    private const string Z_KEY = "y";
+    private const string X_MIN_KEY = "xmin";
+    private const string X_MAX_KEY = "xmax";
+    private const string Z_MIN_KEY = "ymin";
+    private const string Z_MAX_KEY = "ymax";
 
-        private const string X_KEY = "x";
-        private const string Z_KEY = "y";
-        private const string X_MIN_KEY = "xmin";
-        private const string X_MAX_KEY = "xmax";
-        private const string Z_MIN_KEY = "ymin";
-        private const string Z_MAX_KEY = "ymax";
+    public string address;
+    public Dictionary<string, object> location;
+    public int score;
+    public Dictionary<string, object> attributes;
+    public Dictionary<string, object> extent;
 
-        public string address;
-        public Dictionary<string, object> location;
-        public int score;
-        public Dictionary<string, object> attributes;
-        public Dictionary<string, object> extent;
-
-        private bool tryGetValue(Dictionary<string, object> dict, string key, out object value) {
-            if (dict.ContainsKey(key)) {
-                value = dict[key];
-                return true;
-            }
-
-            value = null;
-            return false;
+    private bool tryGetValue(Dictionary<string, object> dict, string key, out object value) {
+        if (dict.ContainsKey(key)) {
+            value = dict[key];
+            return true;
         }
 
-        public string placeName {
-            get {
-                object nameVal;
-                if (tryGetValue(attributes, NAME_KEY, out nameVal)) {
-                    return nameVal.ToString();
-                }
-
-                return "[NO NAME]";
-            }
-        }
-
-        public string placeAddress {
-            get {
-                object addressVal;
-                if (tryGetValue(attributes, ADDR_KEY, out addressVal)) {
-                    return addressVal.ToString();
-                }
-
-                return "[NO ADDRESS]";
-            }
-        }
-
-        public float x {
-            get {
-                object xVal;
-                float xFloat;
-                if (tryGetValue(location, X_KEY, out xVal) && float.TryParse(xVal.ToString(), out xFloat)) {
-                    return xFloat;
-                }
-
-                return 0;
-            }
-        }
-
-        public float z {
-            get {
-                object zVal;
-                float zFloat;
-                if (tryGetValue(location, Z_KEY, out zVal) && float.TryParse(zVal.ToString(), out zFloat)) {
-                    return zFloat;
-                }
-
-                return 0;
-            }
-        }
-
-        public float xMin {
-            get {
-                object xVal;
-                float xFloat;
-                if (tryGetValue(location, X_MIN_KEY, out xVal) && float.TryParse(xVal.ToString(), out xFloat)) {
-                    return xFloat;
-                }
-
-                return 0;
-            }
-        }
-
-        public float xMax {
-            get {
-                object xVal;
-                float xFloat;
-                if (tryGetValue(location, X_MAX_KEY, out xVal) && float.TryParse(xVal.ToString(), out xFloat)) {
-                    return xFloat;
-                }
-
-                return 0;
-            }
-        }
-
-        public float zMin {
-            get {
-                object zVal;
-                float zFloat;
-                if (tryGetValue(location, Z_MIN_KEY, out zVal) && float.TryParse(zVal.ToString(), out zFloat)) {
-                    return zFloat;
-                }
-
-                return 0;
-            }
-        }
-
-        public float zMax {
-            get {
-                object zVal;
-                float zFloat;
-                if (tryGetValue(location, Z_MAX_KEY, out zVal) && float.TryParse(zVal.ToString(), out zFloat)) {
-                    return zFloat;
-                }
-
-                return 0;
-            }
-        }
-
-        public Rect rect {
-            get {
-                float xMinOffset = Mathf.Abs(x - xMin);
-                float xMaxOffset = Mathf.Abs(xMax - x);
-                float zMinOffset = Mathf.Abs(z - zMin);
-                float zMaxOffset = Mathf.Abs(zMax - z);
-
-                float xDelta = xMaxOffset + xMinOffset;
-                float zDelta = zMaxOffset + zMinOffset;
-
-                return new Rect(new Vector2((xMin + xMax) / 2, (zMin + zMax) / 2), new Vector2(xDelta, zDelta));
-            }
-        }
-
+        value = null;
+        return false;
     }
 
-    private const double DEFAULT_LATITUDE = -111.830305;
-    private const double DEFAULT_LONGITUDE = 40.759238;
-    private const int DEFAULT_MAX_RESULTS = 100;
+    public string placeName {
+        get {
+            object nameVal;
+            if (tryGetValue(attributes, NAME_KEY, out nameVal)) {
+                return nameVal.ToString();
+            }
+
+            return "[NO NAME]";
+        }
+    }
+
+    public string placeAddress {
+        get {
+            object addressVal;
+            if (tryGetValue(attributes, ADDR_KEY, out addressVal)) {
+                return addressVal.ToString();
+            }
+
+            return "[NO ADDRESS]";
+        }
+    }
+
+    public float x {
+        get {
+            object xVal;
+            float xFloat;
+            if (tryGetValue(location, X_KEY, out xVal) && float.TryParse(xVal.ToString(), out xFloat)) {
+                return xFloat;
+            }
+
+            return 0;
+        }
+    }
+
+    public float z {
+        get {
+            object zVal;
+            float zFloat;
+            if (tryGetValue(location, Z_KEY, out zVal) && float.TryParse(zVal.ToString(), out zFloat)) {
+                return zFloat;
+            }
+
+            return 0;
+        }
+    }
+
+    public float xMin {
+        get {
+            object xVal;
+            float xFloat;
+            if (tryGetValue(location, X_MIN_KEY, out xVal) && float.TryParse(xVal.ToString(), out xFloat)) {
+                return xFloat;
+            }
+
+            return 0;
+        }
+    }
+
+    public float xMax {
+        get {
+            object xVal;
+            float xFloat;
+            if (tryGetValue(location, X_MAX_KEY, out xVal) && float.TryParse(xVal.ToString(), out xFloat)) {
+                return xFloat;
+            }
+
+            return 0;
+        }
+    }
+
+    public float zMin {
+        get {
+            object zVal;
+            float zFloat;
+            if (tryGetValue(location, Z_MIN_KEY, out zVal) && float.TryParse(zVal.ToString(), out zFloat)) {
+                return zFloat;
+            }
+
+            return 0;
+        }
+    }
+
+    public float zMax {
+        get {
+            object zVal;
+            float zFloat;
+            if (tryGetValue(location, Z_MAX_KEY, out zVal) && float.TryParse(zVal.ToString(), out zFloat)) {
+                return zFloat;
+            }
+
+            return 0;
+        }
+    }
+
+    public Rect rect {
+        get {
+            float xMinOffset = Mathf.Abs(x - xMin);
+            float xMaxOffset = Mathf.Abs(xMax - x);
+            float zMinOffset = Mathf.Abs(z - zMin);
+            float zMaxOffset = Mathf.Abs(zMax - z);
+
+            float xDelta = xMaxOffset + xMinOffset;
+            float zDelta = zMaxOffset + zMinOffset;
+
+            return new Rect(new Vector2((xMin + xMax) / 2, (zMin + zMax) / 2), new Vector2(xDelta, zDelta));
+        }
+    }
+
+}
+
+public class ArcGSIRequestHelper : MonoBehaviour {
 
     public void query() {
         Debug.Log("Querying");
@@ -167,15 +163,15 @@ public class ArcGSIRequestHelper : MonoBehaviour {
         int maxResults = 10;
 
         if (true) {
-            latitude = DEFAULT_LATITUDE;
-            longitude = DEFAULT_LONGITUDE;
-            maxResults = DEFAULT_MAX_RESULTS;
+            latitude = AppConsts.DEFAULT_LATITUDE;
+            longitude = AppConsts.DEFAULT_LONGITUDE;
+            maxResults = AppConsts.DEFAULT_MAX_RESULTS;
         }
 
         findAddressCandidates(categories, outFields, latitude, longitude, maxResults);
     }
 
-    private void findAddressCandidates(string[] categories, string[] outFields, double latitude, double longitude, int maxResults) {
+    public static List<CandidateData> findAddressCandidates(string[] categories, string[] outFields, double latitude, double longitude, int maxResults) {
         StringBuilder categoriesSB = new StringBuilder();
         for (int i = 0; i < categories.Length; i++) {
             if (i > 0) {
@@ -227,19 +223,10 @@ public class ArcGSIRequestHelper : MonoBehaviour {
             string candidatesJson = jsonResponseMapping["candidates"].ToString();
             //Debug.Log(featuresJson);
 
-            List<CandidateData> candidateData = Newtonsoft.Json.JsonConvert.DeserializeObject<List<CandidateData>>(candidatesJson);
-            Debug.Log(candidateData.Count + " candidate data points");
-            GameObject candidatePrefab = Resources.Load<GameObject>("FeaturePrefab");
-
-            for (int i = 0; i < candidateData.Count; i++) {
-                Debug.Log(i + ": " + candidateData[i].placeName + " " + candidateData[i].placeAddress + " " + candidateData[i].rect);
-
-                GameObject featureInstance = GameObject.Instantiate(candidatePrefab);
-                featureInstance.name = i + ": " + candidateData[i].placeName;
-                featureInstance.transform.position = new Vector3(candidateData[i].x * 200, 2, candidateData[i].z * 200);
-            }
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<List<CandidateData>>(candidatesJson);
         } else {
             Debug.Log(":(");
+            return new List<CandidateData>();
         }
     }
 
@@ -281,7 +268,7 @@ public class ArcGSIRequestHelper : MonoBehaviour {
     //    }
     //}
 
-    private void writeToFile(string content) {
+    private static void writeToFile(string content) {
         string filePath = Application.streamingAssetsPath + "/rest_api_test.txt";
         if (File.Exists(filePath)) {
             File.Delete(filePath);
