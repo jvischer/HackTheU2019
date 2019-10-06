@@ -146,31 +146,6 @@ public class CandidateData {
 
 public class ArcGSIRequestHelper : MonoBehaviour {
 
-    public void query() {
-        Debug.Log("Querying");
-        string[] categories = {
-            "Gas%20Station",
-        };
-        string[] outFields = {
-            "PlaceName",
-            "Place_Addr",
-            "City",
-            "Region",
-            "Location",
-        };
-        double latitude = -117.919120;
-        double longitude = 33.812075;
-        int maxResults = 10;
-
-        if (true) {
-            latitude = AppConsts.DEFAULT_LATITUDE;
-            longitude = AppConsts.DEFAULT_LONGITUDE;
-            maxResults = AppConsts.DEFAULT_MAX_RESULTS;
-        }
-
-        findAddressCandidates(categories, outFields, latitude, longitude, maxResults);
-    }
-
     public static List<CandidateData> findAddressCandidates(string[] categories, string[] outFields, double latitude, double longitude, int maxResults) {
         StringBuilder categoriesSB = new StringBuilder();
         for (int i = 0; i < categories.Length; i++) {
@@ -212,20 +187,12 @@ public class ArcGSIRequestHelper : MonoBehaviour {
         HttpWebResponse response = (HttpWebResponse) request.GetResponse();
         StreamReader reader = new StreamReader(response.GetResponseStream());
         string jsonResponse = reader.ReadToEnd();
-        writeToFile(jsonResponse);
-        Debug.Log(jsonResponse);
-
         Dictionary<string, object> jsonResponseMapping = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<string, object>>(jsonResponse);
-        foreach (string key in jsonResponseMapping.Keys) {
-            Debug.Log("Key " + key);
-        }
         if (jsonResponseMapping.ContainsKey("candidates")) {
             string candidatesJson = jsonResponseMapping["candidates"].ToString();
-            //Debug.Log(featuresJson);
-
             return Newtonsoft.Json.JsonConvert.DeserializeObject<List<CandidateData>>(candidatesJson);
         } else {
-            Debug.Log(":(");
+            Debug.LogError("[ArcGSIRequestHelper] Json response had no 'candidates' key.");
             return new List<CandidateData>();
         }
     }

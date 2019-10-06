@@ -66,6 +66,15 @@ public class MapGenerator : MonoBehaviour {
 
     private void Awake() {
         player = GameObject.Instantiate(_playerPrefab).transform;
+        _activeCandidates = new List<CandidateController>();
+
+        Screen.sleepTimeout = -1;
+    }
+
+    private IEnumerator Start() {
+        while (!_locationController.isInitialized) {
+            yield return null;
+        }
 
         CategoryType[] categoryTypes = {
             CategoryType.Food,
@@ -77,8 +86,6 @@ public class MapGenerator : MonoBehaviour {
             CategoryType.ProfessionalAndOtherPlaces,
             CategoryType.Nightlife,
         };
-
-        _activeCandidates = new List<CandidateController>();
         for (int i = 0; i < categoryTypes.Length; i++) {
             List<string> categories = new List<string>();
             CategoryData categoryData = CATEGORY_TYPES_TO_SEARCH_CATEGORIES[categoryTypes[i]];
@@ -96,8 +103,8 @@ public class MapGenerator : MonoBehaviour {
                 "Region",
                 "Location",
             };
-            float latitude = AppConsts.DEFAULT_LATITUDE;
-            float longitude = AppConsts.DEFAULT_LONGITUDE;
+            float latitude = _locationController.getLatitude();
+            float longitude = _locationController.getLongitude();
             int maxResults = AppConsts.DEFAULT_MAX_RESULTS;
             List<CandidateData> candidateData = ArcGSIRequestHelper.findAddressCandidates(categories.ToArray(), outFields, latitude, longitude, maxResults);
             Debug.Log(candidateData.Count + " candidate data points");
@@ -106,10 +113,15 @@ public class MapGenerator : MonoBehaviour {
             candidateMaterial.color = categoryData.Color;
 
             for (int j = 0; j < candidateData.Count; j++) {
+                // Skip earth since yes, that's a data point
+                if (candidateData[j].placeName.Equals("Earth")) {
+                    continue;
+                }
                 //Debug.Log(j + ": " + candidateData[j].placeName + " " + candidateData[j].placeAddress + " " + candidateData[j].rect);
 
                 CandidateController candidateInstance = GameObject.Instantiate(_candidatePrefab);
                 candidateInstance.Initialize(candidateData[j]);
+                Debug.Log((candidateData[j].x - latitude) + " " + candidateData[j].x + " - " + latitude + " " + (candidateData[j].z - longitude) + " " + candidateData[j].z + " - " + longitude);
                 candidateInstance.transform.position = new Vector3((candidateData[j].x - latitude) * AppConsts.MAP_SCALE_FACTOR, 0, (candidateData[j].z - longitude) * AppConsts.MAP_SCALE_FACTOR);
 
                 candidateInstance.meshRenderer.sharedMaterial = candidateMaterial;

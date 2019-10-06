@@ -7,13 +7,20 @@ public class LocationController : MonoBehaviour {
     private const float LOCATION_ENABLE_CHECK_REFRESH_COOLDOWN = 1.0F;
     private const float LOCATION_REFRESH_COOLDOWN = 0.5F;
 
-    private LocationInfo _initialLocationInfo;
-    private double _latitudeOffset;
-    private double _longitudeOffset;
+    public LocationInfo initialLocationInfo;
+    public bool isInitialized;
+
+    private float _latitudeOffset;
+    private float _longitudeOffset;
+
+    private void Awake() {
+        isInitialized = false;
+    }
 
     private IEnumerator Start() {
-        _initialLocationInfo = new LocationInfo();
+        initialLocationInfo = new LocationInfo();
 
+#if !UNITY_EDITOR
         while (!Input.location.isEnabledByUser) {
             Debug.Log("User's location is currently disabled.");
             yield return new WaitForSeconds(LOCATION_ENABLE_CHECK_REFRESH_COOLDOWN);
@@ -25,7 +32,13 @@ public class LocationController : MonoBehaviour {
             yield return null;
         }
 
-        _initialLocationInfo = Input.location.lastData;
+        initialLocationInfo = Input.location.lastData;
+#else
+        _latitudeOffset = AppConsts.DEFAULT_LATITUDE;
+        _longitudeOffset = AppConsts.DEFAULT_LONGITUDE;
+        yield return null;
+#endif
+        isInitialized = true;
 
         //while (true) {
         //    LocationInfo locationInfo = Input.location.lastData;
@@ -36,13 +49,48 @@ public class LocationController : MonoBehaviour {
         //}
     }
 
-    public Vector2 getOriginLatLong() {
-        return new Vector2(_initialLocationInfo.latitude, _initialLocationInfo.longitude);
+    private const float OFFSET_PER_DEV_HOTKEY_SECOND = 1F;
+
+    private void Update() {
+        Vector3 devHotkeyMovementDir = Vector3.zero;
+        if (Input.GetKey(KeyCode.W)) {
+            devHotkeyMovementDir += Vector3.forward;
+        }
+        if (Input.GetKey(KeyCode.S)) {
+            devHotkeyMovementDir += Vector3.back;
+        }
+        if (Input.GetKey(KeyCode.D)) {
+            devHotkeyMovementDir += Vector3.right;
+        }
+        if (Input.GetKey(KeyCode.A)) {
+            devHotkeyMovementDir += Vector3.left;
+        }
+
+        Vector3 movementDir = MapGenerator.player.rotation * devHotkeyMovementDir;
+        addOffset(OFFSET_PER_DEV_HOTKEY_SECOND * Time.deltaTime * movementDir.x, OFFSET_PER_DEV_HOTKEY_SECOND * Time.deltaTime * movementDir.z);
+    }
+
+    private float getInitialLatitude() {
+#if UNITY_EDITOR
+        return AppConsts.DEFAULT_LATITUDE;
+#endif
+        return initialLocationInfo.latitude;
+    }
+
+    private float getInitialLongitude() {
+#if UNITY_EDITOR
+        return AppConsts.DEFAULT_LONGITUDE;
+#endif
+        return initialLocationInfo.longitude;
+    }
+
+    public Vector3 getOriginLatLong() {
+        return new Vector3(getInitialLatitude(), 0, getInitialLongitude());
     }
 
     public float getLatitude() {
         if (Input.location.status != LocationServiceStatus.Running) {
-            return 0;
+            return _latitudeOffset;
         }
         LocationInfo locationInfo = Input.location.lastData;
         return (float)(locationInfo.latitude + _latitudeOffset);
@@ -50,17 +98,17 @@ public class LocationController : MonoBehaviour {
 
     public float getLongitude() {
         if (Input.location.status != LocationServiceStatus.Running) {
-            return 0;
+            return _longitudeOffset;
         }
         LocationInfo locationInfo = Input.location.lastData;
         return (float)(locationInfo.longitude + _longitudeOffset);
     }
 
-    public Vector2 getLatLong() {
-        return new Vector2(getLatitude(), getLongitude());
+    public Vector3 getLatLong() {
+        return new Vector3(getLatitude(), 0, getLongitude());
     }
 
-    public void addOffset(double x, double z) {
+    public void addOffset(float x, float z) {
         _latitudeOffset += x;
         _longitudeOffset += z;
     }

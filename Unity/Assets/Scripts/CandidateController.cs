@@ -31,4 +31,8 @@ public class CandidateController : MonoBehaviour {
         }
     }
 
+    public CandidateData getCandidateData() {
+        return _candidateData;
+    }
+
 }

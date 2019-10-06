@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 9163243323799078897}
   - component: {fileID: 725185491394336877}
   - component: {fileID: 5074368952449849408}
+  - component: {fileID: 72697196854140770}
   m_Layer: 0
   m_Name: Candidate
   m_TagString: Untagged
@@ -303,6 +304,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!135 &72697196854140770
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5012790981467586291}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.6
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7376733252819640578
 GameObject:
   m_ObjectHideFlags: 0
