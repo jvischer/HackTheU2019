@@ -5,1003 +5,1003 @@
  },
  "candidates": [
   {
-   "address": "University Federal Credit Union",
+   "address": "El as de Oro",
    "location": {
-    "x": -111.83041998499634,
-    "y": 40.757489959461211
+    "x": -114.73034999999999,
+    "y": 32.716680000000053
    },
    "score": 100,
    "attributes": {
-    "PlaceName": "University Federal Credit Union",
-    "Place_Addr": "505 S Wakara Way, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83524999999997,
-    "ymin": 40.752310000000072,
-    "xmax": -111.82524999999998,
-    "ymax": 40.762310000000078
-   }
-  },
-  {
-   "address": "University of Utah Credit Union",
-   "location": {
-    "x": -111.83041998499634,
-    "y": 40.757489959461211
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "University of Utah Credit Union",
-    "Place_Addr": "505 S Wakara Way, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83524999999997,
-    "ymin": 40.752310000000072,
-    "xmax": -111.82524999999998,
-    "ymax": 40.762310000000078
-   }
-  },
-  {
-   "address": "Univ Utah Orthopedic Pharmacy",
-   "location": {
-    "x": -111.83273999999994,
-    "y": 40.755720000000053
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Univ Utah Orthopedic Pharmacy",
-    "Place_Addr": "590 S Wakara Way, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83773999999994,
-    "ymin": 40.750720000000051,
-    "xmax": -111.82773999999995,
-    "ymax": 40.760720000000056
-   }
-  },
-  {
-   "address": "Madsen Clinic Pharmacy",
-   "location": {
-    "x": -111.83643999999998,
-    "y": 40.75759000000005
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Madsen Clinic Pharmacy",
-    "Place_Addr": "555 Foothill Blvd, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84143999999998,
-    "ymin": 40.752590000000048,
-    "xmax": -111.83143999999999,
-    "ymax": 40.762590000000053
-   }
-  },
-  {
-   "address": "University Neuropsych Pharmacy",
-   "location": {
-    "x": -111.82372999999995,
-    "y": 40.757570000000044
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "University Neuropsych Pharmacy",
-    "Place_Addr": "501 S Chipeta Way, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.82872999999995,
-    "ymin": 40.752570000000041,
-    "xmax": -111.81872999999996,
-    "ymax": 40.762570000000046
-   }
-  },
-  {
-   "address": "University of Utah Credit Union",
-   "location": {
-    "x": -111.83643000779024,
-    "y": 40.762010033325573
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "University of Utah Credit Union",
-    "Place_Addr": "1901 E South Campus Dr, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84162999999995,
-    "ymin": 40.757220000000068,
-    "xmax": -111.83162999999996,
-    "ymax": 40.767220000000073
-   }
-  },
-  {
-   "address": "University of Utah Credit Union",
-   "location": {
-    "x": -111.83643000779024,
-    "y": 40.762010033325573
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "University of Utah Credit Union",
-    "Place_Addr": "1901 E South Campus Dr, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84162999999995,
-    "ymin": 40.757220000000068,
-    "xmax": -111.83162999999996,
-    "ymax": 40.767220000000073
-   }
-  },
-  {
-   "address": "American United Family of CU",
-   "location": {
-    "x": -111.83852001673435,
-    "y": 40.758289993653953
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "American United Family of CU",
-    "Place_Addr": "500 Foothill Blvd, Salt Lake City, Utah, 84148",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84437999999994,
-    "ymin": 40.750760000000064,
-    "xmax": -111.83437999999995,
-    "ymax": 40.760760000000069
-   }
-  },
-  {
-   "address": "American United Credit Union",
-   "location": {
-    "x": -111.83852001673435,
-    "y": 40.758289993653953
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "American United Credit Union",
-    "Place_Addr": "500 Foothill Blvd, Salt Lake City, Utah, 84148",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84437999999994,
-    "ymin": 40.750760000000064,
-    "xmax": -111.83437999999995,
-    "ymax": 40.760760000000069
-   }
-  },
-  {
-   "address": "PCMC Outpatient",
-   "location": {
-    "x": -111.83751999999998,
-    "y": 40.76616000000007
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "PCMC Outpatient",
-    "Place_Addr": "100 S Mario Capecchi Dr, Salt Lake City, Utah, 84113",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84251999999998,
-    "ymin": 40.761160000000068,
-    "xmax": -111.83251999999999,
-    "ymax": 40.771160000000073
-   }
-  },
-  {
-   "address": "University of Utah Credit Union",
-   "location": {
-    "x": -111.83476999999999,
-    "y": 40.768110000000036
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "University of Utah Credit Union",
-    "Place_Addr": "30 Medical Dr S, Salt Lake City, Utah, 84132",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83976999999999,
-    "ymin": 40.763110000000033,
-    "xmax": -111.82977,
-    "ymax": 40.773110000000038
-   }
-  },
-  {
-   "address": "University of Utah Credit Union",
-   "location": {
-    "x": -111.83476999999999,
-    "y": 40.768110000000036
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "University of Utah Credit Union",
-    "Place_Addr": "30 Medical Dr S, Salt Lake City, Utah, 84132",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83976999999999,
-    "ymin": 40.763110000000033,
-    "xmax": -111.82977,
-    "ymax": 40.773110000000038
-   }
-  },
-  {
-   "address": "Wells Fargo",
-   "location": {
-    "x": -111.83635999999996,
-    "y": 40.768000000000029
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Wells Fargo",
-    "Place_Addr": "100 S 1880 E, Salt Lake City, Utah, 84132",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84135999999995,
-    "ymin": 40.763000000000027,
-    "xmax": -111.83135999999996,
-    "ymax": 40.773000000000032
-   }
-  },
-  {
-   "address": "Moran Eye Center Pharmacy",
-   "location": {
-    "x": -111.83702999999997,
-    "y": 40.768650000000036
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Moran Eye Center Pharmacy",
-    "Place_Addr": "65 S 1880 E, Salt Lake City, Utah, 84132",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84202999999997,
-    "ymin": 40.763650000000034,
-    "xmax": -111.83202999999997,
-    "ymax": 40.773650000000039
-   }
-  },
-  {
-   "address": "Chase",
-   "location": {
-    "x": -111.84474999999998,
-    "y": 40.765600000000063
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Chase",
-    "Place_Addr": "200 Central Campus Dr, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84974999999997,
-    "ymin": 40.760600000000061,
-    "xmax": -111.83974999999998,
-    "ymax": 40.770600000000066
-   }
-  },
-  {
-   "address": "Mountain America Credit Union ATM",
-   "location": {
-    "x": -111.84481999999997,
-    "y": 40.765580000000057
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Mountain America Credit Union ATM",
-    "Place_Addr": "200 Central Campus Dr, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84981999999997,
-    "ymin": 40.760580000000054,
-    "xmax": -111.83981999999997,
-    "ymax": 40.770580000000059
-   }
-  },
-  {
-   "address": "University of Utah Credit Union",
-   "location": {
-    "x": -111.84717999999998,
-    "y": 40.762190000000032
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "University of Utah Credit Union",
-    "Place_Addr": "270 S 1500 E, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85217999999998,
-    "ymin": 40.75719000000003,
-    "xmax": -111.84217999999998,
-    "ymax": 40.767190000000035
-   }
-  },
-  {
-   "address": "University of Utah Credit Union",
-   "location": {
-    "x": -111.84717999999998,
-    "y": 40.762190000000032
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "University of Utah Credit Union",
-    "Place_Addr": "270 S 1500 E, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85217999999998,
-    "ymin": 40.75719000000003,
-    "xmax": -111.84217999999998,
-    "ymax": 40.767190000000035
-   }
-  },
-  {
-   "address": "Wells Fargo",
-   "location": {
-    "x": -111.84762999999998,
-    "y": 40.762680000000046
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Wells Fargo",
-    "Place_Addr": "200 S 1500 E, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85262999999998,
-    "ymin": 40.757680000000043,
-    "xmax": -111.84262999999999,
-    "ymax": 40.767680000000048
-   }
-  },
-  {
-   "address": "Wells Fargo",
-   "location": {
-    "x": -111.83940999999999,
-    "y": 40.771800000000042
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Wells Fargo",
-    "Place_Addr": "1800 E 50 S, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84440999999998,
-    "ymin": 40.766800000000039,
-    "xmax": -111.83440999999999,
-    "ymax": 40.776800000000044
-   }
-  },
-  {
-   "address": "University Utah Hospital",
-   "location": {
-    "x": -111.83679999999998,
-    "y": 40.772980000000075
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "University Utah Hospital",
-    "Place_Addr": "50 Medical Dr N, Salt Lake City, Utah, 84132",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84179999999998,
-    "ymin": 40.767980000000072,
-    "xmax": -111.83179999999999,
-    "ymax": 40.777980000000078
-   }
-  },
-  {
-   "address": "Huntsman Cancer Hospital Pharmacy",
-   "location": {
-    "x": -111.83675999999997,
-    "y": 40.773470000000032
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Huntsman Cancer Hospital Pharmacy",
-    "Place_Addr": "1950 Circle of Hope Dr, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84175999999997,
-    "ymin": 40.768470000000029,
-    "xmax": -111.83175999999997,
-    "ymax": 40.778470000000034
-   }
-  },
-  {
-   "address": "Wells Fargo",
-   "location": {
-    "x": -111.85017999999997,
-    "y": 40.758820000000071
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Wells Fargo",
-    "Place_Addr": "451 S 1400 E, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85517999999996,
-    "ymin": 40.753820000000069,
-    "xmax": -111.84517999999997,
-    "ymax": 40.763820000000074
-   }
-  },
-  {
-   "address": "Primary Hospital Credit Union",
-   "location": {
-    "x": -111.83954999999997,
-    "y": 40.772850000000062
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Primary Hospital Credit Union",
-    "Place_Addr": "100 Medical Dr N, Salt Lake City, Utah, 84112",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.84454999999997,
-    "ymin": 40.76785000000006,
-    "xmax": -111.83454999999998,
-    "ymax": 40.777850000000065
-   }
-  },
-  {
-   "address": "Farmer Jones Market",
-   "location": {
-    "x": -111.85290999999995,
-    "y": 40.758350000000064
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Farmer Jones Market",
-    "Place_Addr": "1320 E 500 S, Salt Lake City, Utah, 84102",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85790999999995,
-    "ymin": 40.753350000000061,
-    "xmax": -111.84790999999996,
-    "ymax": 40.763350000000067
-   }
-  },
-  {
-   "address": "Chase",
-   "location": {
-    "x": -111.83073997388783,
-    "y": 40.742040000000031
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Chase",
-    "Place_Addr": "1285 S 2100 E, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83549999999997,
-    "ymin": 40.737040000000029,
-    "xmax": -111.82549999999998,
-    "ymax": 40.747040000000034
-   }
-  },
-  {
-   "address": "Chase",
-   "location": {
-    "x": -111.83073997388783,
-    "y": 40.742040000000031
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Chase",
-    "Place_Addr": "1285 S 2100 E, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83549999999997,
-    "ymin": 40.737040000000029,
-    "xmax": -111.82549999999998,
-    "ymax": 40.747040000000034
-   }
-  },
-  {
-   "address": "Wells Fargo",
-   "location": {
-    "x": -111.82763005164736,
-    "y": 40.742039945034463
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Wells Fargo",
-    "Place_Addr": "1290 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83287999999999,
-    "ymin": 40.736920000000048,
-    "xmax": -111.82288,
-    "ymax": 40.746920000000053
-   }
-  },
-  {
-   "address": "Wells Fargo",
-   "location": {
-    "x": -111.82763005164736,
-    "y": 40.742039945034463
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Wells Fargo",
-    "Place_Addr": "1290 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83287999999999,
-    "ymin": 40.736920000000048,
-    "xmax": -111.82288,
-    "ymax": 40.746920000000053
-   }
-  },
-  {
-   "address": "FedEx Office",
-   "location": {
-    "x": -111.85235999999998,
-    "y": 40.764830000000075
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "FedEx Office",
-    "Place_Addr": "200 S University St, Salt Lake City, Utah, 84102",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85735999999997,
-    "ymin": 40.759830000000072,
-    "xmax": -111.84735999999998,
-    "ymax": 40.769830000000077
-   }
-  },
-  {
-   "address": "Zions Bank",
-   "location": {
-    "x": -111.82716003332548,
-    "y": 40.741479996104907
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Zions Bank",
-    "Place_Addr": "1304 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83236999999997,
-    "ymin": 40.736380000000047,
-    "xmax": -111.82236999999998,
-    "ymax": 40.746380000000052
-   }
-  },
-  {
-   "address": "Zions Bank",
-   "location": {
-    "x": -111.82716003332548,
-    "y": 40.741479996104907
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Zions Bank",
-    "Place_Addr": "1304 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83236999999997,
-    "ymin": 40.736380000000047,
-    "xmax": -111.82236999999998,
-    "ymax": 40.746380000000052
-   }
-  },
-  {
-   "address": "University Pharmacy",
-   "location": {
-    "x": -111.85291999999998,
-    "y": 40.764999941139301
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "University Pharmacy",
-    "Place_Addr": "1320 E 200 S, Salt Lake City, Utah, 84102",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85791999999998,
-    "ymin": 40.759780000000028,
-    "xmax": -111.84791999999999,
-    "ymax": 40.769780000000033
-   }
-  },
-  {
-   "address": "Sinclair",
-   "location": {
-    "x": -111.82690999884613,
-    "y": 40.741270003895217
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Sinclair",
-    "Place_Addr": "1309 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83144999999996,
-    "ymin": 40.736370000000072,
-    "xmax": -111.82144999999997,
-    "ymax": 40.746370000000077
-   }
-  },
-  {
-   "address": "Wells Fargo",
-   "location": {
-    "x": -111.85385995556597,
-    "y": 40.763660000000073
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Wells Fargo",
-    "Place_Addr": "235 S 1300 E, Salt Lake City, Utah, 84102",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85857999999996,
-    "ymin": 40.75866000000007,
-    "xmax": -111.84857999999997,
-    "ymax": 40.768660000000075
-   }
-  },
-  {
-   "address": "Wells Fargo",
-   "location": {
-    "x": -111.85385995556597,
-    "y": 40.763660000000073
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Wells Fargo",
-    "Place_Addr": "235 S 1300 E, Salt Lake City, Utah, 84102",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85857999999996,
-    "ymin": 40.75866000000007,
-    "xmax": -111.84857999999997,
-    "ymax": 40.768660000000075
-   }
-  },
-  {
-   "address": "Frosts Book Store",
-   "location": {
-    "x": -111.82695999999999,
-    "y": 40.741240000000062
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Frosts Book Store",
-    "Place_Addr": "1320 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83195999999998,
-    "ymin": 40.736240000000059,
-    "xmax": -111.82195999999999,
-    "ymax": 40.746240000000064
-   }
-  },
-  {
-   "address": "7-Eleven",
-   "location": {
-    "x": -111.85385995556597,
-    "y": 40.764530000000036
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "7-Eleven",
-    "Place_Addr": "209 S 1300 E, Salt Lake City, Utah, 84102",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85857999999996,
-    "ymin": 40.759530000000034,
-    "xmax": -111.84857999999997,
-    "ymax": 40.769530000000039
-   }
-  },
-  {
-   "address": "UPS Store",
-   "location": {
-    "x": -111.82671999999997,
-    "y": 40.740970000000061
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "UPS Store",
-    "Place_Addr": "1338 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83171999999996,
-    "ymin": 40.735970000000059,
-    "xmax": -111.82171999999997,
-    "ymax": 40.745970000000064
-   }
-  },
-  {
-   "address": "KeyBank",
-   "location": {
-    "x": -111.85392005554249,
-    "y": 40.763070000000027
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "KeyBank",
-    "Place_Addr": "290 S 1300 E, Salt Lake City, Utah, 84102",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85926999999998,
-    "ymin": 40.758070000000025,
-    "xmax": -111.84926999999999,
-    "ymax": 40.76807000000003
-   }
-  },
-  {
-   "address": "KeyBank",
-   "location": {
-    "x": -111.85392005554249,
-    "y": 40.763070000000027
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "KeyBank",
-    "Place_Addr": "290 S 1300 E, Salt Lake City, Utah, 84102",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.85926999999998,
-    "ymin": 40.758070000000025,
-    "xmax": -111.84926999999999,
-    "ymax": 40.76807000000003
-   }
-  },
-  {
-   "address": "Babinski's Baby",
-   "location": {
-    "x": -111.82728004775223,
-    "y": 40.740879945034493
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Babinski's Baby",
-    "Place_Addr": "1324 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83242999999999,
-    "ymin": 40.735760000000077,
-    "xmax": -111.82243,
-    "ymax": 40.745760000000082
-   }
-  },
-  {
-   "address": "Babinski's",
-   "location": {
-    "x": -111.82728004775223,
-    "y": 40.740879945034493
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Babinski's",
-    "Place_Addr": "1324 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83242999999999,
-    "ymin": 40.735760000000077,
-    "xmax": -111.82243,
-    "ymax": 40.745760000000082
-   }
-  },
-  {
-   "address": "Haroon's",
-   "location": {
-    "x": -111.82724006607408,
-    "y": 40.740690076605738
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Haroon's",
-    "Place_Addr": "1326 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83242999999999,
-    "ymin": 40.735720000000065,
-    "xmax": -111.82243,
-    "ymax": 40.74572000000007
-   }
-  },
-  {
-   "address": "Steur & Friends",
-   "location": {
-    "x": -111.83079004775217,
-    "y": 40.740599923394377
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Steur & Friends",
-    "Place_Addr": "1344 S 2100 E, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83593999999994,
-    "ymin": 40.735570000000045,
-    "xmax": -111.82593999999995,
-    "ymax": 40.74557000000005
-   }
-  },
-  {
-   "address": "Four and Twenty Sailors",
-   "location": {
-    "x": -111.82683002337083,
-    "y": 40.741089958884267
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Four and Twenty Sailors",
-    "Place_Addr": "1328 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83242999999999,
-    "ymin": 40.735680000000052,
-    "xmax": -111.82243,
-    "ymax": 40.745680000000057
-   }
-  },
-  {
-   "address": "Bra Bar Boutique",
-   "location": {
-    "x": -111.82654999999994,
-    "y": 40.740770000000055
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Bra Bar Boutique",
-    "Place_Addr": "1352 S Foothill Dr, Salt Lake City, Utah, 84108",
-    "City": "Salt Lake City",
-    "Region": "Utah"
-   },
-   "extent": {
-    "xmin": -111.83154999999994,
-    "ymin": 40.735770000000052,
-    "xmax": -111.82154999999995,
-    "ymax": 40.745770000000057
-   }
-  },
-  {
-   "address": "Champion's Club",
-   "location": {
-    "x": -115.42626999999999,
-    "y": 32.663600000000031
-   },
-   "score": 100,
-   "attributes": {
-    "PlaceName": "Champion's Club",
-    "Place_Addr": "Avenida de los Jazmines, Estatuto Jurídico, Mexicali, Baja California, 21210",
+    "PlaceName": "El as de Oro",
+    "Place_Addr": "3RA Calle, Zona Federal Vicente Guerrero, Mexicali, Baja California, 21970",
     "City": "Mexicali",
     "Region": "Baja California"
    },
    "extent": {
-    "xmin": -115.43126999999998,
-    "ymin": 32.658600000000028,
-    "xmax": -115.42126999999999,
-    "ymax": 32.668600000000033
+    "xmin": -114.73534999999998,
+    "ymin": 32.711680000000051,
+    "xmax": -114.72534999999999,
+    "ymax": 32.721680000000056
    }
   },
   {
-   "address": "Gym Flex",
+   "address": "The Green Door",
    "location": {
-    "x": -115.42624999999998,
-    "y": 32.662190000000066
+    "x": -114.72906999999998,
+    "y": 32.71637000000004
    },
    "score": 100,
    "attributes": {
-    "PlaceName": "Gym Flex",
+    "PlaceName": "The Green Door",
+    "Place_Addr": "Calle Miguel Hidalgo, Zona Federal Vicente Guerrero, Mexicali, Baja California, 21970",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -114.73406999999997,
+    "ymin": 32.711370000000038,
+    "xmax": -114.72406999999998,
+    "ymax": 32.721370000000043
+   }
+  },
+  {
+   "address": "Hawai Club",
+   "location": {
+    "x": -114.73037999999997,
+    "y": 32.716550000000041
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Hawai Club",
+    "Place_Addr": "3RA Calle, Zona Federal Vicente Guerrero, Mexicali, Baja California, 21970",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -114.73537999999996,
+    "ymin": 32.711550000000038,
+    "xmax": -114.72537999999997,
+    "ymax": 32.721550000000043
+   }
+  },
+  {
+   "address": "Tarros del Norte",
+   "location": {
+    "x": -115.41523999999998,
+    "y": 32.663870000000031
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Tarros del Norte",
+    "Place_Addr": "Calzada Manuel Gómez Morín, Andalucía, Mexicali, Baja California, 21217",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.42023999999998,
+    "ymin": 32.658870000000029,
+    "xmax": -115.41023999999999,
+    "ymax": 32.668870000000034
+   }
+  },
+  {
+   "address": "Clamatazo",
+   "location": {
+    "x": -115.42557999999997,
+    "y": 32.661790000000053
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Clamatazo",
     "Place_Addr": "Calzada de las Américas, Compuertas, Mexicali, Baja California, 21218",
     "City": "Mexicali",
     "Region": "Baja California"
    },
    "extent": {
-    "xmin": -115.43124999999998,
-    "ymin": 32.657190000000064,
-    "xmax": -115.42124999999999,
-    "ymax": 32.667190000000069
+    "xmin": -115.43057999999996,
+    "ymin": 32.656790000000051,
+    "xmax": -115.42057999999997,
+    "ymax": 32.666790000000056
    }
   },
   {
-   "address": "Anytime Fitness Mexicali",
+   "address": "La 854",
    "location": {
-    "x": -115.39930999999996,
-    "y": 32.652970000000039
+    "x": -115.43445999999994,
+    "y": 32.663220000000024
    },
    "score": 100,
    "attributes": {
-    "PlaceName": "Anytime Fitness Mexicali",
-    "Place_Addr": "Calzada Cetis, Fracc Rivera, Mexicali, Baja California, 21259",
+    "PlaceName": "La 854",
+    "Place_Addr": "Calzada de las Américas, Fracc Sonora, Mexicali, Baja California, 21210",
     "City": "Mexicali",
     "Region": "Baja California"
    },
    "extent": {
-    "xmin": -115.40430999999995,
-    "ymin": 32.647970000000036,
-    "xmax": -115.39430999999996,
-    "ymax": 32.657970000000041
+    "xmin": -115.43945999999994,
+    "ymin": 32.658220000000021,
+    "xmax": -115.42945999999995,
+    "ymax": 32.668220000000026
+   }
+  },
+  {
+   "address": "Bar San Diego",
+   "location": {
+    "x": -115.43336999999997,
+    "y": 32.662240000000054
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Bar San Diego",
+    "Place_Addr": "Calle Río Culiacán, Compuertas, Mexicali, Baja California, 21218",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.43836999999996,
+    "ymin": 32.657240000000051,
+    "xmax": -115.42836999999997,
+    "ymax": 32.667240000000056
+   }
+  },
+  {
+   "address": "Jardin de Eventos Los Manantiales",
+   "location": {
+    "x": -115.41068999999999,
+    "y": 32.655630000000031
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Jardin de Eventos Los Manantiales",
+    "Place_Addr": "Fracc Cetys, Mexicali, Baja California, 21240",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.41568999999998,
+    "ymin": 32.650630000000028,
+    "xmax": -115.40568999999999,
+    "ymax": 32.660630000000033
+   }
+  },
+  {
+   "address": "El Cotorro Cantinas",
+   "location": {
+    "x": -115.41068999999999,
+    "y": 32.65554000000003
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "El Cotorro Cantinas",
+    "Place_Addr": "Fracc Cetys, Mexicali, Baja California, 21240",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.41568999999998,
+    "ymin": 32.650540000000028,
+    "xmax": -115.40568999999999,
+    "ymax": 32.660540000000033
+   }
+  },
+  {
+   "address": "Asking Alexandria Soma",
+   "location": {
+    "x": -115.41068999999999,
+    "y": 32.65545000000003
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Asking Alexandria Soma",
+    "Place_Addr": "Fracc Cetys, Mexicali, Baja California, 21240",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.41568999999998,
+    "ymin": 32.650450000000028,
+    "xmax": -115.40568999999999,
+    "ymax": 32.660450000000033
+   }
+  },
+  {
+   "address": "Psport",
+   "location": {
+    "x": -115.41187999999994,
+    "y": 32.655720000000031
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Psport",
+    "Place_Addr": "Calzada Manuel Gómez Morín, Fracc Cetys, Mexicali, Baja California, 21240",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.41687999999994,
+    "ymin": 32.650720000000028,
+    "xmax": -115.40687999999994,
+    "ymax": 32.660720000000033
+   }
+  },
+  {
+   "address": "Punto Chope",
+   "location": {
+    "x": -115.41616999999997,
+    "y": 32.656890000000033
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Punto Chope",
+    "Place_Addr": "Calzada de las Américas, Estatuto Jurídico 2da Etapa, Mexicali, Baja California, 21210",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.42116999999996,
+    "ymin": 32.65189000000003,
+    "xmax": -115.41116999999997,
+    "ymax": 32.661890000000035
+   }
+  },
+  {
+   "address": "The Show",
+   "location": {
+    "x": -115.42381999999998,
+    "y": 32.658780000000036
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "The Show",
+    "Place_Addr": "Calzada Cuauhtémoc, Santa María, Mexicali, Baja California, 21240",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.42881999999997,
+    "ymin": 32.653780000000033,
+    "xmax": -115.41881999999998,
+    "ymax": 32.663780000000038
+   }
+  },
+  {
+   "address": "Heidelberg",
+   "location": {
+    "x": -115.46472999999997,
+    "y": 32.666990000000055
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Heidelberg",
+    "Place_Addr": "Calle H, Segunda Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.46972999999997,
+    "ymin": 32.661990000000053,
+    "xmax": -115.45972999999998,
+    "ymax": 32.671990000000058
+   }
+  },
+  {
+   "address": "Tropiconga",
+   "location": {
+    "x": -115.43891999999994,
+    "y": 32.658060000000035
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Tropiconga",
+    "Place_Addr": "Calzada Cuauhtémoc, Unidad Patria, Mexicali, Baja California, 21230",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.44391999999993,
+    "ymin": 32.653060000000032,
+    "xmax": -115.43391999999994,
+    "ymax": 32.663060000000037
+   }
+  },
+  {
+   "address": "La Selva en Relajo",
+   "location": {
+    "x": -115.44509999999997,
+    "y": 32.657770000000028
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "La Selva en Relajo",
+    "Place_Addr": "Calzada Cuauhtémoc, Cuauhtémoc Norte, Mexicali, Baja California, 21200",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.45009999999996,
+    "ymin": 32.652770000000025,
+    "xmax": -115.44009999999997,
+    "ymax": 32.66277000000003
+   }
+  },
+  {
+   "address": "La Mezcaleria",
+   "location": {
+    "x": -115.46191999999996,
+    "y": 32.662420000000054
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "La Mezcaleria",
+    "Place_Addr": "Calle I, Nueva, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.46691999999996,
+    "ymin": 32.657420000000052,
+    "xmax": -115.45691999999997,
+    "ymax": 32.667420000000057
+   }
+  },
+  {
+   "address": "The Beer Box",
+   "location": {
+    "x": -115.44635999999997,
+    "y": 32.657640000000072
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "The Beer Box",
+    "Place_Addr": "Calzada Cuauhtémoc, Aviación, Mexicali, Baja California, 21230",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.45135999999997,
+    "ymin": 32.652640000000069,
+    "xmax": -115.44135999999997,
+    "ymax": 32.662640000000074
+   }
+  },
+  {
+   "address": "La Frontera",
+   "location": {
+    "x": -115.44739999999996,
+    "y": 32.657570000000078
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "La Frontera",
+    "Place_Addr": "Aviación, Mexicali, Baja California, 21230",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.45239999999995,
+    "ymin": 32.652570000000075,
+    "xmax": -115.44239999999996,
+    "ymax": 32.66257000000008
+   }
+  },
+  {
+   "address": "Nido",
+   "location": {
+    "x": -115.44882999999999,
+    "y": 32.657470000000046
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Nido",
+    "Place_Addr": "Calzada Cuauhtémoc, Aviación, Mexicali, Baja California, 21230",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.45382999999998,
+    "ymin": 32.652470000000044,
+    "xmax": -115.44382999999999,
+    "ymax": 32.662470000000049
+   }
+  },
+  {
+   "address": "Suite 69",
+   "location": {
+    "x": -115.44919999999996,
+    "y": 32.657440000000065
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Suite 69",
+    "Place_Addr": "Calzada Cuauhtémoc, Aviación, Mexicali, Baja California, 21230",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.45419999999996,
+    "ymin": 32.652440000000063,
+    "xmax": -115.44419999999997,
+    "ymax": 32.662440000000068
+   }
+  },
+  {
+   "address": "Take Five",
+   "location": {
+    "x": -115.45095999999995,
+    "y": 32.657310000000052
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Take Five",
+    "Place_Addr": "Calzada Cuauhtémoc, Aviación, Mexicali, Baja California, 21230",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.45595999999995,
+    "ymin": 32.65231000000005,
+    "xmax": -115.44595999999996,
+    "ymax": 32.662310000000055
+   }
+  },
+  {
+   "address": "Bar",
+   "location": {
+    "x": -115.45095999999995,
+    "y": 32.657310000000052
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Bar",
+    "Place_Addr": "Calzada Cuauhtémoc, Aviación, Mexicali, Baja California, 21230",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.45595999999995,
+    "ymin": 32.65231000000005,
+    "xmax": -115.44595999999996,
+    "ymax": 32.662310000000055
+   }
+  },
+  {
+   "address": "Barroco",
+   "location": {
+    "x": -115.47572999999994,
+    "y": 32.66417000000007
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Barroco",
+    "Place_Addr": "Calle C, Segunda Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.48072999999994,
+    "ymin": 32.659170000000067,
+    "xmax": -115.47072999999995,
+    "ymax": 32.669170000000072
+   }
+  },
+  {
+   "address": "La Reforma",
+   "location": {
+    "x": -115.47572999999994,
+    "y": 32.66417000000007
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "La Reforma",
+    "Place_Addr": "Calle C, Segunda Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.48072999999994,
+    "ymin": 32.659170000000067,
+    "xmax": -115.47072999999995,
+    "ymax": 32.669170000000072
+   }
+  },
+  {
+   "address": "El Teatro Karaoke",
+   "location": {
+    "x": -115.47572999999994,
+    "y": 32.66417000000007
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "El Teatro Karaoke",
+    "Place_Addr": "Calle C, Segunda Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.48072999999994,
+    "ymin": 32.659170000000067,
+    "xmax": -115.47072999999995,
+    "ymax": 32.669170000000072
+   }
+  },
+  {
+   "address": "El Pre",
+   "location": {
+    "x": -115.47665999999998,
+    "y": 32.664240000000063
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "El Pre",
+    "Place_Addr": "Calle de la Dignidad, Segunda Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.48165999999998,
+    "ymin": 32.659240000000061,
+    "xmax": -115.47165999999999,
+    "ymax": 32.669240000000066
+   }
+  },
+  {
+   "address": "Cerveceria Mexicali",
+   "location": {
+    "x": -115.47090999999995,
+    "y": 32.661020000000065
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Cerveceria Mexicali",
+    "Place_Addr": "Calle E, Segunda Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.47590999999994,
+    "ymin": 32.656020000000062,
+    "xmax": -115.46590999999995,
+    "ymax": 32.666020000000067
+   }
+  },
+  {
+   "address": "Las Trancas",
+   "location": {
+    "x": -115.47963999999996,
+    "y": 32.662610000000029
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Las Trancas",
+    "Place_Addr": "Avenida Gral. Álvaro Obregón, Segunda Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.48463999999996,
+    "ymin": 32.657610000000027,
+    "xmax": -115.47463999999997,
+    "ymax": 32.667610000000032
+   }
+  },
+  {
+   "address": "Berlin 77",
+   "location": {
+    "x": -115.48702999999995,
+    "y": 32.664310000000057
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Berlin 77",
+    "Place_Addr": "Calle México, Primera Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49202999999994,
+    "ymin": 32.659310000000055,
+    "xmax": -115.48202999999995,
+    "ymax": 32.66931000000006
+   }
+  },
+  {
+   "address": "Porky's",
+   "location": {
+    "x": -115.48641999999995,
+    "y": 32.663530000000037
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Porky's",
+    "Place_Addr": "Calle de la Dignidad, Primera Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49141999999995,
+    "ymin": 32.658530000000034,
+    "xmax": -115.48141999999996,
+    "ymax": 32.66853000000004
+   }
+  },
+  {
+   "address": "Jala La Jarra",
+   "location": {
+    "x": -115.48641999999995,
+    "y": 32.663530000000037
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Jala La Jarra",
+    "Place_Addr": "Calle de la Dignidad, Primera Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49141999999995,
+    "ymin": 32.658530000000034,
+    "xmax": -115.48141999999996,
+    "ymax": 32.66853000000004
+   }
+  },
+  {
+   "address": "Evolution",
+   "location": {
+    "x": -115.48697999999996,
+    "y": 32.663640000000044
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Evolution",
+    "Place_Addr": "Calle México, Primera Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49197999999996,
+    "ymin": 32.658640000000041,
+    "xmax": -115.48197999999996,
+    "ymax": 32.668640000000046
+   }
+  },
+  {
+   "address": "La Conga",
+   "location": {
+    "x": -115.48697999999996,
+    "y": 32.663600000000031
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "La Conga",
+    "Place_Addr": "Calle México, Primera Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49197999999996,
+    "ymin": 32.658600000000028,
+    "xmax": -115.48197999999996,
+    "ymax": 32.668600000000033
+   }
+  },
+  {
+   "address": "Veneno",
+   "location": {
+    "x": -115.45159999999998,
+    "y": 32.653270000000077
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Veneno",
+    "Place_Addr": "Paseo de los Pinos, Justo Sierra, Mexicali, Baja California, 21230",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.45659999999998,
+    "ymin": 32.648270000000075,
+    "xmax": -115.44659999999999,
+    "ymax": 32.65827000000008
+   }
+  },
+  {
+   "address": "El Miau Miau",
+   "location": {
+    "x": -115.48695999999995,
+    "y": 32.663340000000062
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "El Miau Miau",
+    "Place_Addr": "Calle México, Primera Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49195999999995,
+    "ymin": 32.658340000000059,
+    "xmax": -115.48195999999996,
+    "ymax": 32.668340000000065
+   }
+  },
+  {
+   "address": "Kaoz",
+   "location": {
+    "x": -115.48695999999995,
+    "y": 32.663340000000062
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Kaoz",
+    "Place_Addr": "Calle México, Primera Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49195999999995,
+    "ymin": 32.658340000000059,
+    "xmax": -115.48195999999996,
+    "ymax": 32.668340000000065
+   }
+  },
+  {
+   "address": "La Casona",
+   "location": {
+    "x": -115.49328999999994,
+    "y": 32.664360000000045
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "La Casona",
+    "Place_Addr": "Avenida Francisco I. Madero, Primera Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49828999999994,
+    "ymin": 32.659360000000042,
+    "xmax": -115.48828999999995,
+    "ymax": 32.669360000000047
+   }
+  },
+  {
+   "address": "Las Chavelas",
+   "location": {
+    "x": -115.46815999999995,
+    "y": 32.656690000000026
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Las Chavelas",
+    "Place_Addr": "Calle F, Segunda Sección, Mexicali, Baja California, 21100",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.47315999999995,
+    "ymin": 32.651690000000023,
+    "xmax": -115.46315999999996,
+    "ymax": 32.661690000000029
+   }
+  },
+  {
+   "address": "Sports & Billars Scarface",
+   "location": {
+    "x": -115.39967999999999,
+    "y": 32.636050000000068
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Sports & Billars Scarface",
+    "Place_Addr": "Res Coronado, Mexicali, Baja California, 21254",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.40467999999998,
+    "ymin": 32.631050000000066,
+    "xmax": -115.39467999999999,
+    "ymax": 32.641050000000071
+   }
+  },
+  {
+   "address": "El Gambusino",
+   "location": {
+    "x": -114.73241999999999,
+    "y": 32.468100000000049
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "El Gambusino",
+    "Place_Addr": "Calle 39, Burócrata, San Luis Río Colorado, Sonora, 83450",
+    "City": "San Luis Río Colorado",
+    "Region": "Sonora"
+   },
+   "extent": {
+    "xmin": -114.73741999999999,
+    "ymin": 32.463100000000047,
+    "xmax": -114.72742,
+    "ymax": 32.473100000000052
+   }
+  },
+  {
+   "address": "El Jefe",
+   "location": {
+    "x": -115.48780999999997,
+    "y": 32.660310000000038
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "El Jefe",
+    "Place_Addr": "Avenida Sebastián Lerdo de Tejada, Fracc Río Nuevo, Mexicali, Baja California, 21120",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49280999999996,
+    "ymin": 32.655310000000036,
+    "xmax": -115.48280999999997,
+    "ymax": 32.665310000000041
+   }
+  },
+  {
+   "address": "Bar El Texano",
+   "location": {
+    "x": -115.48780999999997,
+    "y": 32.660310000000038
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Bar El Texano",
+    "Place_Addr": "Avenida Sebastián Lerdo de Tejada, Fracc Río Nuevo, Mexicali, Baja California, 21120",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49280999999996,
+    "ymin": 32.655310000000036,
+    "xmax": -115.48280999999997,
+    "ymax": 32.665310000000041
+   }
+  },
+  {
+   "address": "Bar Kim Koh",
+   "location": {
+    "x": -115.48778999999996,
+    "y": 32.660270000000025
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Bar Kim Koh",
+    "Place_Addr": "Avenida Sebastián Lerdo de Tejada, Fracc Río Nuevo, Mexicali, Baja California, 21120",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49278999999996,
+    "ymin": 32.655270000000023,
+    "xmax": -115.48278999999997,
+    "ymax": 32.665270000000028
+   }
+  },
+  {
+   "address": "La Adelita",
+   "location": {
+    "x": -115.48792999999995,
+    "y": 32.660310000000038
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "La Adelita",
+    "Place_Addr": "Avenida Sebastián Lerdo de Tejada, Fracc Río Nuevo, Mexicali, Baja California, 21120",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49292999999994,
+    "ymin": 32.655310000000036,
+    "xmax": -115.48292999999995,
+    "ymax": 32.665310000000041
+   }
+  },
+  {
+   "address": "Cantina Washington",
+   "location": {
+    "x": -115.48806999999999,
+    "y": 32.660300000000063
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Cantina Washington",
+    "Place_Addr": "Avenida Sebastián Lerdo de Tejada, Fracc Río Nuevo, Mexicali, Baja California, 21120",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49306999999999,
+    "ymin": 32.655300000000061,
+    "xmax": -115.48307,
+    "ymax": 32.665300000000066
+   }
+  },
+  {
+   "address": "El Nuevo Mariachi",
+   "location": {
+    "x": -115.48806999999999,
+    "y": 32.660300000000063
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "El Nuevo Mariachi",
+    "Place_Addr": "Avenida Sebastián Lerdo de Tejada, Fracc Río Nuevo, Mexicali, Baja California, 21120",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49306999999999,
+    "ymin": 32.655300000000061,
+    "xmax": -115.48307,
+    "ymax": 32.665300000000066
+   }
+  },
+  {
+   "address": "Crazy Horse",
+   "location": {
+    "x": -115.48819999999995,
+    "y": 32.660300000000063
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Crazy Horse",
+    "Place_Addr": "Avenida Sebastián Lerdo de Tejada, Fracc Río Nuevo, Mexicali, Baja California, 21120",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49319999999994,
+    "ymin": 32.655300000000061,
+    "xmax": -115.48319999999995,
+    "ymax": 32.665300000000066
+   }
+  },
+  {
+   "address": "Bar El Gallo Giro",
+   "location": {
+    "x": -115.48907999999994,
+    "y": 32.660520000000076
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Bar El Gallo Giro",
+    "Place_Addr": "Calle José María Morelos y Pavón, Fracc Río Nuevo, Mexicali, Baja California, 21120",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49407999999994,
+    "ymin": 32.655520000000074,
+    "xmax": -115.48407999999995,
+    "ymax": 32.665520000000079
+   }
+  },
+  {
+   "address": "Pancho's Place",
+   "location": {
+    "x": -115.49300999999997,
+    "y": 32.661610000000053
+   },
+   "score": 100,
+   "attributes": {
+    "PlaceName": "Pancho's Place",
+    "Place_Addr": "Avenida Benito Juárez, Fracc Río Nuevo, Mexicali, Baja California, 21120",
+    "City": "Mexicali",
+    "Region": "Baja California"
+   },
+   "extent": {
+    "xmin": -115.49800999999997,
+    "ymin": 32.65661000000005,
+    "xmax": -115.48800999999997,
+    "ymax": 32.666610000000055
    }
   }
  ]

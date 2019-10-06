@@ -8,5 +8,8 @@ public static class AppConsts {
 	public const int DEFAULT_MAX_RESULTS = 100;
 
 	public const int MAP_SCALE_FACTOR = 1000;
+	public const int MAX_VISIBLE_NAME_PLATE_DISTANCE = 75;
+
+    public const float SCREEN_HORIZONTAL_SCROLL_SENSITIVITY = 1.1F;
 
 }
