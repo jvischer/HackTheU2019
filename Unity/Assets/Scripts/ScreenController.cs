@@ -44,6 +44,7 @@ public class ScreenController : MonoBehaviour {
                             // We have a match! View the node!
                             CandidateController candidateController = newHits[i].transform.parent.GetComponent<CandidateController>();
                             if (candidateController != null) {
+                                PopupController.showCandidate(candidateController.getCandidateData());
                                 Debug.Log(candidateController.getCandidateData().placeName);
                             }
                             break;

@@ -101,13 +101,12 @@ public class MapGenerator : MonoBehaviour {
                 "Place_Addr",
                 "City",
                 "Region",
-                "Location",
+                "Location", 
             };
-            float latitude = _locationController.getLatitude();
             float longitude = _locationController.getLongitude();
+            float latitude = _locationController.getLatitude();
             int maxResults = AppConsts.DEFAULT_MAX_RESULTS;
-            List<CandidateData> candidateData = ArcGSIRequestHelper.findAddressCandidates(categories.ToArray(), outFields, latitude, longitude, maxResults);
-            Debug.Log(candidateData.Count + " candidate data points");
+            List<CandidateData> candidateData = ArcGSIRequestHelper.findAddressCandidates(categories.ToArray(), outFields, longitude, latitude, maxResults);
 
             Material candidateMaterial = GameObject.Instantiate(_candidatePrefab.meshRenderer.sharedMaterial);
             candidateMaterial.color = categoryData.Color;
@@ -121,8 +120,7 @@ public class MapGenerator : MonoBehaviour {
 
                 CandidateController candidateInstance = GameObject.Instantiate(_candidatePrefab);
                 candidateInstance.Initialize(candidateData[j]);
-                Debug.Log((candidateData[j].x - latitude) + " " + candidateData[j].x + " - " + latitude + " " + (candidateData[j].z - longitude) + " " + candidateData[j].z + " - " + longitude);
-                candidateInstance.transform.position = new Vector3((candidateData[j].x - latitude) * AppConsts.MAP_SCALE_FACTOR, 0, (candidateData[j].z - longitude) * AppConsts.MAP_SCALE_FACTOR);
+                candidateInstance.transform.position = new Vector3((candidateData[j].x - longitude) * AppConsts.MAP_SCALE_FACTOR, 0, (candidateData[j].z - latitude) * AppConsts.MAP_SCALE_FACTOR);
 
                 candidateInstance.meshRenderer.sharedMaterial = candidateMaterial;
 
@@ -132,7 +130,7 @@ public class MapGenerator : MonoBehaviour {
     }
 
     private void Update() {
-        player.transform.position = _locationController.getLatLong() - _locationController.getOriginLatLong();
+        player.transform.position = _locationController.getLongLat() - _locationController.getOriginLongLat();
 
         Vector3 playerPos = player.transform.position;
         for (int i = 0; i < _activeCandidates.Count; i++) {

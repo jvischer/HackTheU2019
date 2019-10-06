@@ -146,7 +146,7 @@ public class CandidateData {
 
 public class ArcGSIRequestHelper : MonoBehaviour {
 
-    public static List<CandidateData> findAddressCandidates(string[] categories, string[] outFields, double latitude, double longitude, int maxResults) {
+    public static List<CandidateData> findAddressCandidates(string[] categories, string[] outFields, float longitude, float latitude, int maxResults) {
         StringBuilder categoriesSB = new StringBuilder();
         for (int i = 0; i < categories.Length; i++) {
             if (i > 0) {
@@ -170,7 +170,7 @@ public class ArcGSIRequestHelper : MonoBehaviour {
             String.Format("category={0}", categoriesSB),
             String.Format("outFields={0}", outFieldsSB),
             String.Format("maxLocations={0}", maxResults),
-            String.Format("location={0}%2C{1}", latitude, longitude),
+            String.Format("location={0}%2C{1}", longitude, latitude),
             "forStorage=false",
             "f=pjson"
         };

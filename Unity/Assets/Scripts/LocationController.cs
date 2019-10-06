@@ -7,13 +7,16 @@ public class LocationController : MonoBehaviour {
     private const float LOCATION_ENABLE_CHECK_REFRESH_COOLDOWN = 1.0F;
     private const float LOCATION_REFRESH_COOLDOWN = 0.5F;
 
+    private static LocationController _instance;
+
     public LocationInfo initialLocationInfo;
     public bool isInitialized;
 
-    private float _latitudeOffset;
     private float _longitudeOffset;
+    private float _latitudeOffset;
 
     private void Awake() {
+        _instance = this;
         isInitialized = false;
     }
 
@@ -34,11 +37,13 @@ public class LocationController : MonoBehaviour {
 
         initialLocationInfo = Input.location.lastData;
 #else
-        _latitudeOffset = AppConsts.DEFAULT_LATITUDE;
         _longitudeOffset = AppConsts.DEFAULT_LONGITUDE;
+        _latitudeOffset = AppConsts.DEFAULT_LATITUDE;
         yield return null;
 #endif
         isInitialized = true;
+
+        Debug.Log("Initialized w/ " + " " + initialLocationInfo.longitude + ", " + initialLocationInfo.latitude + " " + _longitudeOffset + " " + _latitudeOffset);
 
         //while (true) {
         //    LocationInfo locationInfo = Input.location.lastData;
@@ -70,13 +75,6 @@ public class LocationController : MonoBehaviour {
         addOffset(OFFSET_PER_DEV_HOTKEY_SECOND * Time.deltaTime * movementDir.x, OFFSET_PER_DEV_HOTKEY_SECOND * Time.deltaTime * movementDir.z);
     }
 
-    private float getInitialLatitude() {
-#if UNITY_EDITOR
-        return AppConsts.DEFAULT_LATITUDE;
-#endif
-        return initialLocationInfo.latitude;
-    }
-
     private float getInitialLongitude() {
 #if UNITY_EDITOR
         return AppConsts.DEFAULT_LONGITUDE;
@@ -84,16 +82,15 @@ public class LocationController : MonoBehaviour {
         return initialLocationInfo.longitude;
     }
 
-    public Vector3 getOriginLatLong() {
-        return new Vector3(getInitialLatitude(), 0, getInitialLongitude());
+    private float getInitialLatitude() {
+#if UNITY_EDITOR
+        return AppConsts.DEFAULT_LATITUDE;
+#endif
+        return initialLocationInfo.latitude;
     }
 
-    public float getLatitude() {
-        if (Input.location.status != LocationServiceStatus.Running) {
-            return _latitudeOffset;
-        }
-        LocationInfo locationInfo = Input.location.lastData;
-        return (float)(locationInfo.latitude + _latitudeOffset);
+    public Vector3 getOriginLongLat() {
+        return new Vector3(getInitialLongitude(), 0, getInitialLatitude());
     }
 
     public float getLongitude() {
@@ -104,13 +101,25 @@ public class LocationController : MonoBehaviour {
         return (float)(locationInfo.longitude + _longitudeOffset);
     }
 
-    public Vector3 getLatLong() {
-        return new Vector3(getLatitude(), 0, getLongitude());
+    public float getLatitude() {
+        if (Input.location.status != LocationServiceStatus.Running) {
+            return _latitudeOffset;
+        }
+        LocationInfo locationInfo = Input.location.lastData;
+        return (float) (locationInfo.latitude + _latitudeOffset);
+    }
+
+    public Vector3 getLongLat() {
+        return new Vector3(getLongitude(), 0, getLatitude());
+    }
+
+    public static Vector3 getPlayerLongLat() {
+        return _instance.getLongLat();
     }
 
     public void addOffset(float x, float z) {
-        _latitudeOffset += x;
-        _longitudeOffset += z;
+        _longitudeOffset += x;
+        _latitudeOffset += z;
     }
 
     private void OnApplicationQuit() {
